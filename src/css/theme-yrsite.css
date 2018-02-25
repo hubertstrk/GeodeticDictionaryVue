@@ -1,0 +1,35 @@
+/* menu bar text*/
+.yrsite a {
+  color: #E733B2 !important;
+}
+/* title */
+.yrsite h1 {
+  color: #E733B2 !important;
+}
+/* avatar */
+.yrsite .avatar {
+  background-color: #E733B2 !important;
+}
+/* table */
+.yrsite tbody tr:nth-of-type(odd) {
+  background: #9F5DD6 !important;
+}
+.yrsite .table.table-hover tbody tr:hover {
+  background: #EAD67A !important;
+}
+/* table text */
+.yrsite td {
+  color: #260126;
+}
+/* pagination */
+.yrsite .pagination .active a {
+   background: #E733B2 !important;
+}
+.yrsite .pagination .page-item.active a {
+  color: #FFF !important;
+}
+/* message toasts */
+.yrsite .toast.toast-primary {
+  background: #E733B2 !important;
+  border-color: #E733B2 !important;
+}

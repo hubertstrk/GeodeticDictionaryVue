@@ -1,0 +1,44 @@
+/* background */
+/* link text */
+/* text */
+/* tr even */
+/* tr odd */
+/* avatar background */
+/* pagination background */
+
+
+/* menu bar text*/
+.space a {
+  color: #8C489F !important;
+}
+/* title */
+.space h1 {
+  color: #8C489F !important;
+}
+/* avatar */
+.space .avatar {
+  background-color: #8C489F !important;
+}
+/* table */
+.space tbody tr:nth-of-type(odd) {
+  background: #C3C3E5 !important;
+}
+.space .table.table-hover tbody tr:hover {
+  background: #F1F0FF !important;
+}
+/* table text */
+.space td {
+  color: #443266;
+}
+/* pagination */
+.space .pagination .active a {
+   background: #8C489F !important;
+}
+.space .pagination .page-item.active a {
+  color: #FFF !important;
+}
+/* message toasts */
+.space .toast.toast-primary {
+  background: #8C489F !important;
+  border-color: #8C489F !important;
+}

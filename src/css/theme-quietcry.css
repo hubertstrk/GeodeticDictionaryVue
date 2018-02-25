@@ -1,0 +1,35 @@
+/* menu bar text*/
+.quietcry a {
+  color: #445878 !important;
+}
+/* title */
+.quietcry h1 {
+  color: #445878 !important;
+}
+/* avatar */
+.quietcry .avatar {
+  background-color: #445878 !important;
+}
+/* table */
+.quietcry tbody tr:nth-of-type(odd) {
+  background: #EEEFF7 !important;
+}
+.quietcry .table.table-hover tbody tr:hover {
+  background: #92CDCF !important;
+}
+/* table text */
+.quietcry td {
+  color: #31353D;
+}
+/* pagination */
+.quietcry .pagination .active a {
+   background: #445878 !important;
+}
+.quietcry .pagination .page-item.active a {
+  color: #FFF !important;
+}
+/* message toasts */
+.quietcry .toast.toast-primary {
+  background: #445878 !important;
+  border-color: #445878 !important;
+}

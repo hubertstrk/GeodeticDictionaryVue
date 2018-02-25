@@ -1,0 +1,44 @@
+/* background */
+/* link text */
+/* text */
+/* tr even */
+/* tr odd */
+/* avatar background */
+/* pagination background */
+
+
+/* menu bar text*/
+.hamii a {
+  color: #3280C2 !important;
+}
+/* title */
+.hamii h1 {
+  color: #3280C2 !important;
+}
+/* avatar */
+.hamii .avatar {
+  background-color: #3280C2 !important;
+}
+/* table */
+.hamii tbody tr:nth-of-type(odd) {
+  background: #E64131 !important;
+}
+.hamii .table.table-hover tbody tr:hover {
+  background: #E8E014 !important;
+}
+/* table text */
+.hamii td {
+  color: #000000;
+}
+/* pagination */
+.hamii .pagination .active a {
+   background: #3280C2 !important;
+}
+.hamii .pagination .page-item.active a {
+  color: #FFF !important;
+}
+/* message toasts */
+.hamii .toast.toast-primary {
+  background: #3280C2 !important;
+  border-color: #3280C2 !important;
+}
