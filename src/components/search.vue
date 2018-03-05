@@ -18,9 +18,9 @@
         </div>
         <h4 class="empty-title">No translation found</h4>
         <p class="empty-subtitle">Unfortunately we could not find any translation for the specified search expression.</p>
-        <div class="empty-action">
+        <!-- <div class="empty-action">
           <input class="btn btn-primary" type="button" value="Send a message" onClick="window.location.href='mailto:hubert.staerk@gmail.com';" />
-        </div>
+        </div> -->
       </div>
     </div>
     <translations v-if="searchText.length > 0" :translations="translations" :primary="primary" :subsidiary="subsidiary"></translations>

@@ -187,4 +187,8 @@ export default {
 .toggle-inactive{
   left: 1.2rem;
 }
+
+figure {
+  margin-right: 7px;
+}
 </style>
