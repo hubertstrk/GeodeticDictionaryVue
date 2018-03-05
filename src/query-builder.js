@@ -1,3 +1,4 @@
+import {apiKey} from './sensitive.js'
 import {getPrimaryLanguage, getOption} from './settings.js'
 
 const createSimpleSearchUrl = (text) => {
@@ -20,7 +21,7 @@ const createCountUrl = () => {
 const getQueryOptions = () => {
   return {
     method: 'GET',
-    headers: { 'Api-Key': '[api key]' }
+    headers: { 'Api-Key': apiKey }
   }
 }
 
